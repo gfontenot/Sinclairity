@@ -7,13 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F819BC392113F13600539F57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F819BC382113F13600539F57 /* AppDelegate.swift */; };
-		F819BC3B2113F13600539F57 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F819BC3A2113F13600539F57 /* ViewController.swift */; };
-		F819BC3E2113F13600539F57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F819BC3C2113F13600539F57 /* Main.storyboard */; };
-		F819BC402113F13700539F57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F819BC3F2113F13700539F57 /* Assets.xcassets */; };
-		F819BC432113F13700539F57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F819BC412113F13700539F57 /* LaunchScreen.storyboard */; };
-		F819BC4E2113F13700539F57 /* SinclairityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F819BC4D2113F13700539F57 /* SinclairityTests.swift */; };
-		F819BC592113F13700539F57 /* SinclairityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F819BC582113F13700539F57 /* SinclairityUITests.swift */; };
+		F819BC712113F25100539F57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F819BC682113F25100539F57 /* Assets.xcassets */; };
+		F819BC722113F25100539F57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F819BC692113F25100539F57 /* LaunchScreen.storyboard */; };
+		F819BC762113F25100539F57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F819BC702113F25100539F57 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,18 +31,13 @@
 
 /* Begin PBXFileReference section */
 		F819BC352113F13600539F57 /* Sinclairity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sinclairity.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F819BC382113F13600539F57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F819BC3A2113F13600539F57 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F819BC3D2113F13600539F57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F819BC3F2113F13700539F57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F819BC422113F13700539F57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		F819BC442113F13700539F57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F819BC492113F13700539F57 /* SinclairityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SinclairityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F819BC4D2113F13700539F57 /* SinclairityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinclairityTests.swift; sourceTree = "<group>"; };
-		F819BC4F2113F13700539F57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F819BC542113F13700539F57 /* SinclairityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SinclairityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F819BC582113F13700539F57 /* SinclairityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinclairityUITests.swift; sourceTree = "<group>"; };
-		F819BC5A2113F13700539F57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F819BC492113F13700539F57 /* Unit Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Unit Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F819BC542113F13700539F57 /* Integration Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Integration Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F819BC682113F25100539F57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F819BC6A2113F25100539F57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F819BC6D2113F25100539F57 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F819BC702113F25100539F57 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F819BC7B2113F2E400539F57 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,9 +68,8 @@
 		F819BC2C2113F13600539F57 = {
 			isa = PBXGroup;
 			children = (
-				F819BC372113F13600539F57 /* Sinclairity */,
-				F819BC4C2113F13700539F57 /* SinclairityTests */,
-				F819BC572113F13700539F57 /* SinclairityUITests */,
+				F819BC662113F25100539F57 /* App */,
+				F819BC782113F2D100539F57 /* Tests */,
 				F819BC362113F13600539F57 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,41 +78,63 @@
 			isa = PBXGroup;
 			children = (
 				F819BC352113F13600539F57 /* Sinclairity.app */,
-				F819BC492113F13700539F57 /* SinclairityTests.xctest */,
-				F819BC542113F13700539F57 /* SinclairityUITests.xctest */,
+				F819BC492113F13700539F57 /* Unit Tests.xctest */,
+				F819BC542113F13700539F57 /* Integration Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F819BC372113F13600539F57 /* Sinclairity */ = {
+		F819BC662113F25100539F57 /* App */ = {
 			isa = PBXGroup;
 			children = (
-				F819BC382113F13600539F57 /* AppDelegate.swift */,
-				F819BC3A2113F13600539F57 /* ViewController.swift */,
-				F819BC3C2113F13600539F57 /* Main.storyboard */,
-				F819BC3F2113F13700539F57 /* Assets.xcassets */,
-				F819BC412113F13700539F57 /* LaunchScreen.storyboard */,
-				F819BC442113F13700539F57 /* Info.plist */,
+				F819BC672113F25100539F57 /* Resources */,
+				F819BC6E2113F25100539F57 /* Controllers */,
 			);
-			path = Sinclairity;
+			name = App;
+			path = Sources/App;
 			sourceTree = "<group>";
 		};
-		F819BC4C2113F13700539F57 /* SinclairityTests */ = {
+		F819BC672113F25100539F57 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				F819BC4D2113F13700539F57 /* SinclairityTests.swift */,
-				F819BC4F2113F13700539F57 /* Info.plist */,
+				F819BC682113F25100539F57 /* Assets.xcassets */,
+				F819BC692113F25100539F57 /* LaunchScreen.storyboard */,
+				F819BC6D2113F25100539F57 /* Info.plist */,
 			);
-			path = SinclairityTests;
+			path = Resources;
 			sourceTree = "<group>";
 		};
-		F819BC572113F13700539F57 /* SinclairityUITests */ = {
+		F819BC6E2113F25100539F57 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				F819BC582113F13700539F57 /* SinclairityUITests.swift */,
-				F819BC5A2113F13700539F57 /* Info.plist */,
+				F819BC702113F25100539F57 /* AppDelegate.swift */,
 			);
-			path = SinclairityUITests;
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F819BC782113F2D100539F57 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F819BC792113F2E400539F57 /* Unit */,
+			);
+			name = Tests;
+			sourceTree = "<group>";
+		};
+		F819BC792113F2E400539F57 /* Unit */ = {
+			isa = PBXGroup;
+			children = (
+				F819BC7A2113F2E400539F57 /* Resources */,
+			);
+			name = Unit;
+			path = Tests/App/Unit;
+			sourceTree = "<group>";
+		};
+		F819BC7A2113F2E400539F57 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F819BC7B2113F2E400539F57 /* Info.plist */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,9 +157,9 @@
 			productReference = F819BC352113F13600539F57 /* Sinclairity.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F819BC482113F13700539F57 /* SinclairityTests */ = {
+		F819BC482113F13700539F57 /* Unit Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F819BC602113F13700539F57 /* Build configuration list for PBXNativeTarget "SinclairityTests" */;
+			buildConfigurationList = F819BC602113F13700539F57 /* Build configuration list for PBXNativeTarget "Unit Tests" */;
 			buildPhases = (
 				F819BC452113F13700539F57 /* Sources */,
 				F819BC462113F13700539F57 /* Frameworks */,
@@ -158,14 +170,14 @@
 			dependencies = (
 				F819BC4B2113F13700539F57 /* PBXTargetDependency */,
 			);
-			name = SinclairityTests;
+			name = "Unit Tests";
 			productName = SinclairityTests;
-			productReference = F819BC492113F13700539F57 /* SinclairityTests.xctest */;
+			productReference = F819BC492113F13700539F57 /* Unit Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		F819BC532113F13700539F57 /* SinclairityUITests */ = {
+		F819BC532113F13700539F57 /* Integration Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F819BC632113F13700539F57 /* Build configuration list for PBXNativeTarget "SinclairityUITests" */;
+			buildConfigurationList = F819BC632113F13700539F57 /* Build configuration list for PBXNativeTarget "Integration Tests" */;
 			buildPhases = (
 				F819BC502113F13700539F57 /* Sources */,
 				F819BC512113F13700539F57 /* Frameworks */,
@@ -176,9 +188,9 @@
 			dependencies = (
 				F819BC562113F13700539F57 /* PBXTargetDependency */,
 			);
-			name = SinclairityUITests;
+			name = "Integration Tests";
 			productName = SinclairityUITests;
-			productReference = F819BC542113F13700539F57 /* SinclairityUITests.xctest */;
+			productReference = F819BC542113F13700539F57 /* Integration Tests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -218,8 +230,8 @@
 			projectRoot = "";
 			targets = (
 				F819BC342113F13600539F57 /* Sinclairity */,
-				F819BC482113F13700539F57 /* SinclairityTests */,
-				F819BC532113F13700539F57 /* SinclairityUITests */,
+				F819BC482113F13700539F57 /* Unit Tests */,
+				F819BC532113F13700539F57 /* Integration Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -229,9 +241,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F819BC432113F13700539F57 /* LaunchScreen.storyboard in Resources */,
-				F819BC402113F13700539F57 /* Assets.xcassets in Resources */,
-				F819BC3E2113F13600539F57 /* Main.storyboard in Resources */,
+				F819BC712113F25100539F57 /* Assets.xcassets in Resources */,
+				F819BC722113F25100539F57 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F819BC3B2113F13600539F57 /* ViewController.swift in Sources */,
-				F819BC392113F13600539F57 /* AppDelegate.swift in Sources */,
+				F819BC762113F25100539F57 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +275,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F819BC4E2113F13700539F57 /* SinclairityTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +282,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F819BC592113F13700539F57 /* SinclairityUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,18 +301,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F819BC3C2113F13600539F57 /* Main.storyboard */ = {
+		F819BC692113F25100539F57 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F819BC3D2113F13600539F57 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		F819BC412113F13700539F57 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F819BC422113F13700539F57 /* Base */,
+				F819BC6A2113F25100539F57 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -432,12 +432,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A8LPFT3N39;
-				INFOPLIST_FILE = Sinclairity/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/App/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.gfontenot.Sinclairity;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gfontenot.sinclairity;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -450,12 +450,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A8LPFT3N39;
-				INFOPLIST_FILE = Sinclairity/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/App/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.gfontenot.Sinclairity;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gfontenot.sinclairity;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -469,13 +469,13 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A8LPFT3N39;
-				INFOPLIST_FILE = SinclairityTests/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Tests/App/Unit/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.gfontenot.SinclairityTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gfontenot.sinclarity.tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -490,13 +490,13 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A8LPFT3N39;
-				INFOPLIST_FILE = SinclairityTests/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Tests/App/Unit/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.gfontenot.SinclairityTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gfontenot.sinclarity.tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -510,13 +510,13 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A8LPFT3N39;
-				INFOPLIST_FILE = SinclairityUITests/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Tests/App/Integration/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.gfontenot.SinclairityUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gfontenot.sinclarity.integration-tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -530,13 +530,13 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A8LPFT3N39;
-				INFOPLIST_FILE = SinclairityUITests/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Tests/App/Integration/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.gfontenot.SinclairityUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gfontenot.sinclarity.integration-tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -565,7 +565,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F819BC602113F13700539F57 /* Build configuration list for PBXNativeTarget "SinclairityTests" */ = {
+		F819BC602113F13700539F57 /* Build configuration list for PBXNativeTarget "Unit Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F819BC612113F13700539F57 /* Debug */,
@@ -574,7 +574,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F819BC632113F13700539F57 /* Build configuration list for PBXNativeTarget "SinclairityUITests" */ = {
+		F819BC632113F13700539F57 /* Build configuration list for PBXNativeTarget "Integration Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F819BC642113F13700539F57 /* Debug */,
