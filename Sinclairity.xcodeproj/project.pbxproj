@@ -7,12 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		38575800211E579B00922B13 /* ElmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385757FE211E579400922B13 /* ElmViewController.swift */; };
+		38A5FB99211D09710000A22E /* TEA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38A5FB90211D09710000A22E /* TEA.framework */; };
+		38A5FBA5211D09710000A22E /* TEA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38A5FB90211D09710000A22E /* TEA.framework */; };
+		38A5FBA6211D09710000A22E /* TEA.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 38A5FB90211D09710000A22E /* TEA.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		38A5FBB3211D09F00000A22E /* TEA.h in Headers */ = {isa = PBXBuildFile; fileRef = 38A5FBB1211D09F00000A22E /* TEA.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A5FBBC211D0B3C0000A22E /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A5FBBB211D0B3C0000A22E /* Command.swift */; };
+		38A5FBC6211D0E1F0000A22E /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A5FBC5211D0E1F0000A22E /* View.swift */; };
+		38A5FBC8211D0EF90000A22E /* Component.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A5FBC7211D0EF90000A22E /* Component.swift */; };
+		38A5FBCA211D111F0000A22E /* Program.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A5FBC9211D111F0000A22E /* Program.swift */; };
+		38A5FBCE211D16FC0000A22E /* SpacerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A5FBCD211D16FC0000A22E /* SpacerView.swift */; };
 		F819BC712113F25100539F57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F819BC682113F25100539F57 /* Assets.xcassets */; };
 		F819BC722113F25100539F57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F819BC692113F25100539F57 /* LaunchScreen.storyboard */; };
 		F819BC762113F25100539F57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F819BC702113F25100539F57 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		38A5FB9A211D09710000A22E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F819BC2D2113F13600539F57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38A5FB8F211D09710000A22E;
+			remoteInfo = TEA;
+		};
+		38A5FB9C211D09710000A22E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F819BC2D2113F13600539F57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F819BC342113F13600539F57;
+			remoteInfo = Sinclairity;
+		};
+		38A5FBA3211D09710000A22E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F819BC2D2113F13600539F57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38A5FB8F211D09710000A22E;
+			remoteInfo = TEA;
+		};
 		F819BC4A2113F13700539F57 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = F819BC2D2113F13600539F57 /* Project object */;
@@ -29,7 +60,32 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		38A5FBAC211D09710000A22E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				38A5FBA6211D09710000A22E /* TEA.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		385757FE211E579400922B13 /* ElmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElmViewController.swift; sourceTree = "<group>"; };
+		38A5FB90211D09710000A22E /* TEA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TEA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38A5FB98211D09710000A22E /* TEATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TEATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38A5FBB1211D09F00000A22E /* TEA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TEA.h; sourceTree = "<group>"; };
+		38A5FBB2211D09F00000A22E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38A5FBB7211D0A420000A22E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38A5FBBB211D0B3C0000A22E /* Command.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Command.swift; sourceTree = "<group>"; };
+		38A5FBC5211D0E1F0000A22E /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		38A5FBC7211D0EF90000A22E /* Component.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Component.swift; sourceTree = "<group>"; };
+		38A5FBC9211D111F0000A22E /* Program.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Program.swift; sourceTree = "<group>"; };
+		38A5FBCD211D16FC0000A22E /* SpacerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerView.swift; sourceTree = "<group>"; };
 		F819BC352113F13600539F57 /* Sinclairity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sinclairity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F819BC492113F13700539F57 /* Unit Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Unit Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F819BC542113F13700539F57 /* Integration Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Integration Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,10 +97,26 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		38A5FB8C211D09710000A22E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38A5FB95211D09710000A22E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38A5FB99211D09710000A22E /* TEA.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F819BC322113F13600539F57 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38A5FBA5211D09710000A22E /* TEA.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,10 +137,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		38A5FB91211D09710000A22E /* TEA */ = {
+			isa = PBXGroup;
+			children = (
+				38A5FBCF211D17AE0000A22E /* Rendering */,
+				38A5FBB0211D09F00000A22E /* Resources */,
+				38A5FBBB211D0B3C0000A22E /* Command.swift */,
+				38A5FBC5211D0E1F0000A22E /* View.swift */,
+				38A5FBC7211D0EF90000A22E /* Component.swift */,
+				38A5FBC9211D111F0000A22E /* Program.swift */,
+			);
+			name = TEA;
+			path = Sources/TEA;
+			sourceTree = "<group>";
+		};
+		38A5FBB0211D09F00000A22E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				38A5FBB1211D09F00000A22E /* TEA.h */,
+				38A5FBB2211D09F00000A22E /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		38A5FBB5211D0A420000A22E /* TEA */ = {
+			isa = PBXGroup;
+			children = (
+				38A5FBB6211D0A420000A22E /* Resources */,
+			);
+			name = TEA;
+			path = Tests/TEA;
+			sourceTree = "<group>";
+		};
+		38A5FBB6211D0A420000A22E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				38A5FBB7211D0A420000A22E /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		38A5FBCF211D17AE0000A22E /* Rendering */ = {
+			isa = PBXGroup;
+			children = (
+				38A5FBCD211D16FC0000A22E /* SpacerView.swift */,
+				385757FE211E579400922B13 /* ElmViewController.swift */,
+			);
+			path = Rendering;
+			sourceTree = "<group>";
+		};
 		F819BC2C2113F13600539F57 = {
 			isa = PBXGroup;
 			children = (
 				F819BC662113F25100539F57 /* App */,
+				38A5FB91211D09710000A22E /* TEA */,
 				F819BC782113F2D100539F57 /* Tests */,
 				F819BC362113F13600539F57 /* Products */,
 			);
@@ -80,6 +202,8 @@
 				F819BC352113F13600539F57 /* Sinclairity.app */,
 				F819BC492113F13700539F57 /* Unit Tests.xctest */,
 				F819BC542113F13700539F57 /* Integration Tests.xctest */,
+				38A5FB90211D09710000A22E /* TEA.framework */,
+				38A5FB98211D09710000A22E /* TEATests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -115,6 +239,7 @@
 		F819BC782113F2D100539F57 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				38A5FBB5211D0A420000A22E /* TEA */,
 				F819BC792113F2E400539F57 /* Unit */,
 			);
 			name = Tests;
@@ -139,7 +264,55 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		38A5FB8D211D09710000A22E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38A5FBB3211D09F00000A22E /* TEA.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		38A5FB8F211D09710000A22E /* TEA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38A5FBAB211D09710000A22E /* Build configuration list for PBXNativeTarget "TEA" */;
+			buildPhases = (
+				38A5FB8B211D09710000A22E /* Sources */,
+				38A5FB8C211D09710000A22E /* Frameworks */,
+				38A5FB8D211D09710000A22E /* Headers */,
+				38A5FB8E211D09710000A22E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TEA;
+			productName = TEA;
+			productReference = 38A5FB90211D09710000A22E /* TEA.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		38A5FB97211D09710000A22E /* TEATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38A5FBAD211D09710000A22E /* Build configuration list for PBXNativeTarget "TEATests" */;
+			buildPhases = (
+				38A5FB94211D09710000A22E /* Sources */,
+				38A5FB95211D09710000A22E /* Frameworks */,
+				38A5FB96211D09710000A22E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38A5FB9B211D09710000A22E /* PBXTargetDependency */,
+				38A5FB9D211D09710000A22E /* PBXTargetDependency */,
+			);
+			name = TEATests;
+			productName = TEATests;
+			productReference = 38A5FB98211D09710000A22E /* TEATests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		F819BC342113F13600539F57 /* Sinclairity */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F819BC5D2113F13700539F57 /* Build configuration list for PBXNativeTarget "Sinclairity" */;
@@ -147,10 +320,12 @@
 				F819BC312113F13600539F57 /* Sources */,
 				F819BC322113F13600539F57 /* Frameworks */,
 				F819BC332113F13600539F57 /* Resources */,
+				38A5FBAC211D09710000A22E /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				38A5FBA4211D09710000A22E /* PBXTargetDependency */,
 			);
 			name = Sinclairity;
 			productName = Sinclairity;
@@ -203,6 +378,14 @@
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = gfontenot;
 				TargetAttributes = {
+					38A5FB8F211D09710000A22E = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
+					};
+					38A5FB97211D09710000A22E = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = F819BC342113F13600539F57;
+					};
 					F819BC342113F13600539F57 = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
@@ -232,11 +415,27 @@
 				F819BC342113F13600539F57 /* Sinclairity */,
 				F819BC482113F13700539F57 /* Unit Tests */,
 				F819BC532113F13700539F57 /* Integration Tests */,
+				38A5FB8F211D09710000A22E /* TEA */,
+				38A5FB97211D09710000A22E /* TEATests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		38A5FB8E211D09710000A22E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38A5FB96211D09710000A22E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F819BC332113F13600539F57 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -263,6 +462,26 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		38A5FB8B211D09710000A22E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38A5FBCA211D111F0000A22E /* Program.swift in Sources */,
+				38A5FBC8211D0EF90000A22E /* Component.swift in Sources */,
+				38A5FBCE211D16FC0000A22E /* SpacerView.swift in Sources */,
+				38575800211E579B00922B13 /* ElmViewController.swift in Sources */,
+				38A5FBC6211D0E1F0000A22E /* View.swift in Sources */,
+				38A5FBBC211D0B3C0000A22E /* Command.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38A5FB94211D09710000A22E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F819BC312113F13600539F57 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -288,6 +507,21 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		38A5FB9B211D09710000A22E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38A5FB8F211D09710000A22E /* TEA */;
+			targetProxy = 38A5FB9A211D09710000A22E /* PBXContainerItemProxy */;
+		};
+		38A5FB9D211D09710000A22E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F819BC342113F13600539F57 /* Sinclairity */;
+			targetProxy = 38A5FB9C211D09710000A22E /* PBXContainerItemProxy */;
+		};
+		38A5FBA4211D09710000A22E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38A5FB8F211D09710000A22E /* TEA */;
+			targetProxy = 38A5FBA3211D09710000A22E /* PBXContainerItemProxy */;
+		};
 		F819BC4B2113F13700539F57 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = F819BC342113F13600539F57 /* Sinclairity */;
@@ -312,6 +546,103 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		38A5FBA7211D09710000A22E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = A8LPFT3N39;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/TEA/Resources/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gfontenot.TEA;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		38A5FBA8211D09710000A22E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = A8LPFT3N39;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/TEA/Resources/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gfontenot.TEA;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		38A5FBA9211D09710000A22E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Tests/TEA/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gfontenot.TEATests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sinclairity.app/Sinclairity";
+			};
+			name = Debug;
+		};
+		38A5FBAA211D09710000A22E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Tests/TEA/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gfontenot.TEATests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sinclairity.app/Sinclairity";
+			};
+			name = Release;
+		};
 		F819BC5B2113F13700539F57 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -429,6 +760,7 @@
 		F819BC5E2113F13700539F57 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A8LPFT3N39;
@@ -447,6 +779,7 @@
 		F819BC5F2113F13700539F57 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A8LPFT3N39;
@@ -547,6 +880,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		38A5FBAB211D09710000A22E /* Build configuration list for PBXNativeTarget "TEA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38A5FBA7211D09710000A22E /* Debug */,
+				38A5FBA8211D09710000A22E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38A5FBAD211D09710000A22E /* Build configuration list for PBXNativeTarget "TEATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38A5FBA9211D09710000A22E /* Debug */,
+				38A5FBAA211D09710000A22E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		F819BC302113F13600539F57 /* Build configuration list for PBXProject "Sinclairity" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
